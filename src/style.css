@@ -1,0 +1,58 @@
+body {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 500px;
+  height: 350px;
+  background-color: azure;
+  margin-top: 250px;
+  border-radius: 15px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.screen {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-radius: 10px;
+  width: 200px;
+  margin-left: 150px;
+  color: white;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.plus-button {
+  padding: 5px 25px 5px 25px;
+  margin-left: 10px;
+
+  border-radius: 10px;
+  background-color: royalblue;
+  border: none;
+}
+.minus-button {
+  margin-right: 10px;
+  padding: 5px 25px 5px 25px;
+  border-radius: 10px;
+  background-color: royalblue;
+  border: none;
+}
+.reset {
+    display: flex;
+    background-color: red;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 210px;
+  margin-top: 30px;
+  padding: 10px 25px 10px 25px;
+  border-radius: 200px;
+  border: none;
+}
